@@ -19,7 +19,7 @@ $socialNetworks = Posts::getAcfSubValue('social_networks');
 
 
 				<?php if ( isset($addressesRepeater) && !empty($addressesRepeater) ) : ?>
-					<div class=" d-block mb-3 ">
+					<div class="d-flex flex-column align-items-start justify-content-center text-left mb-3 ">
 						<?php foreach ( $addressesRepeater as $address ) : ?>
 							<p class="mb-2">
 								<span class="ti-location-pin mr-2"></span>
@@ -31,7 +31,7 @@ $socialNetworks = Posts::getAcfSubValue('social_networks');
 
 
 				<?php if ( isset($emailsRepeater) && !empty($emailsRepeater) ) : ?>
-					<div class=" d-block mb-3">
+					<div class="d-flex flex-column align-items-start justify-content-center text-left mb-3">
 						<?php foreach ( $emailsRepeater as $email ) : ?>
 							<p class="mb-2">
 								<span class="ti-email mr-2"></span>
@@ -46,7 +46,7 @@ $socialNetworks = Posts::getAcfSubValue('social_networks');
 
 
 				<?php if ( isset($phonesRepeater) && !empty($phonesRepeater) ) : ?>
-					<div class="d-block mb-3">
+					<div class="d-flex flex-column align-items-start justify-content-center text-left mb-3">
 						<?php foreach ( $phonesRepeater as $phone ) : ?>
 							<p class="mb-2">
 								<span class="ti-headphone-alt mr-2"></span>
