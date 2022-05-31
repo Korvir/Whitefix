@@ -1,8 +1,12 @@
-<!doctype html>
-<html <?php use App\Helpers\Posts;
+<?php
+
+use App\Helpers\Posts;
 use App\Menu\MenuBuilder;
 
-language_attributes(); ?>>
+?>
+<!doctype html>
+
+<html <?php language_attributes(); ?>>
 
 <head>
 
@@ -27,7 +31,7 @@ language_attributes(); ?>>
 	<meta name="keywords" content="">
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	
+
 	<?php wp_head(); ?>
 
 </head>

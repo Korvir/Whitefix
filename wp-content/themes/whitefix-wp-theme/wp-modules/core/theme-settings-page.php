@@ -15,8 +15,8 @@ if (function_exists('acf_add_options_page')) {
 
         // Theme Settings
         acf_add_options_page(array(
-            'page_title' => 'Theme Settings',
-            'menu_title' => 'Theme Settings',
+            'page_title' => 'Налаштування теми',
+            'menu_title' => 'Налаштування теми',
             'menu_slug' => 'theme-general-settings',
             'capability' => 'edit_posts',
             'redirect' => false
@@ -26,15 +26,15 @@ if (function_exists('acf_add_options_page')) {
 
 
         // Pages Settings
-        acf_add_options_page(array(
-            'menu_title' => 'Pages Settings',
-            'menu_slug' => 'theme-pages-settings',
-            'capability' => 'edit_posts',
-        ));
-
-        acf_add_options_sub_page(
-            for_acf_add_options_sub_page('Party Mails Settings', 'theme-pages-settings')
-        );
+//        acf_add_options_page(array(
+//            'menu_title' => 'Pages Settings',
+//            'menu_slug' => 'theme-pages-settings',
+//            'capability' => 'edit_posts',
+//        ));
+//
+//        acf_add_options_sub_page(
+//            for_acf_add_options_sub_page('Party Mails Settings', 'theme-pages-settings')
+//        );
 
 //		acf_add_options_sub_page(
 //			for_acf_add_options_sub_page('Capabilities Page', 'theme-pages-settings')
