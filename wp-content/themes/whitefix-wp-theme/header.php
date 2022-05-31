@@ -20,12 +20,14 @@ language_attributes(); ?>>
 
 	<!-- Required meta tags -->
 	<meta name="viewport"
-	      content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	      content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 	<meta name="keywords" content="">
 
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
 	<?php wp_head(); ?>
 
 </head>
@@ -48,6 +50,7 @@ language_attributes(); ?>>
 							<img id="logo-header"
 							     src="<?= Posts::getAcfValue('site_logo')['url'] ?>"
 							     class="img-fluid"
+							     width="80" height="40"
 							     alt="logo">
 						</a>
 
@@ -78,10 +81,10 @@ language_attributes(); ?>>
 									<?php endforeach; ?>
 
 									<li class="nav-item">
-										<a id="start_button"
-										   class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">
+										<button type="button" id="start_button" href="#"
+										        class="btn btn-outline-light my-3 my-sm-0 ml-lg-3">
 											ЗАЛИШИТИ ЗАЯВКУ
-										</a>
+										</button>
 									</li>
 
 								</ul>

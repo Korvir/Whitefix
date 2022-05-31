@@ -25,9 +25,9 @@ use App\Helpers\Posts;
 					</p>
 
 					<div class="my-4">
-						<a class="btn btn-light text-dark contact-button">
+						<button type="button" class="btn btn-light text-dark contact-button">
 							<?= Posts::getAcfSubValue('button_text') ?>
-						</a>
+						</button>
 					</div>
 
 				</div>

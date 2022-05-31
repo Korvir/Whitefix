@@ -29,7 +29,8 @@ $(function () {
 		$('.phone_input').mask("+38(000)00-00-000", {placeholder: "+38(__)__-__-___"});
 
 
-		$(".contact_form_submit").on("click", function (){
+		$(".contact_form_submit").on("click", function (event){
+			event.preventDefault();
 			let form = $(this).parents('.contact_form');
 
 			validate(form);

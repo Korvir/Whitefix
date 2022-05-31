@@ -84,7 +84,7 @@
                                     "label": "Icon",
                                     "name": "icon",
                                     "type": "text",
-                                    "instructions": "You can find icons here:\r\nhttps:\/\/themify.me\/themify-icons\r\n\r\nJust copy code for needed icon.",
+                                    "instructions": "You can find icons here: <br>\r\n<a href=\"https:\/\/themify.me\/themify-icons \" target=\"_blank\">https:\/\/themify.me\/themify-icons <\/a><br>\r\n\r\nJust copy code for needed icon.",
                                     "required": 0,
                                     "conditional_logic": 0,
                                     "wrapper": {
@@ -727,5 +727,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1653999782
+    "modified": 1654007419
 }

@@ -21,7 +21,7 @@
 
 			<span class="result"></span><br/>
 
-			<a class="contact_form_submit">Надіслати</a>
+			<button type="submit" class="contact_form_submit">Надіслати</button>
 
 		</form>
 
