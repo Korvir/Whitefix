@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "laravel-mix": "^6.0.43",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^12.6.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^4.6.1",
+    "flickity": "^3.0.0",
+    "flickity-bg-lazyload": "^2.0.0",
+    "jquery": "^3.6.0",
+    "jquery-mask-plugin": "^1.14.16",
+    "lozad": "^1.16.0",
+    "themify-icons": "^1.0.0"
+  }
+}

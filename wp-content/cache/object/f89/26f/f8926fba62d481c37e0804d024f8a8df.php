@@ -1,0 +1,1 @@
+«%–b<?php exit; ?>a:1:{s:7:"content";s:221:"{"common.install":1654006633,"common.install_version":"2.2.1","common.show_note.nginx_restart_required":true,"license.status":"no_key","license.next_check":1654438636,"license.terms":"","license.community_terms":"accept"}";}

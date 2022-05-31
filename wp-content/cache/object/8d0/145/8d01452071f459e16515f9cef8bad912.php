@@ -1,0 +1,1 @@
+Ã%–b<?php exit; ?>a:1:{s:7:"content";s:57:"http://whitefix.test/wp-includes/images/media/default.png";}

@@ -1,0 +1,20 @@
+{
+    "name": "think-studio/advancement-strategy",
+    "authors": [
+        {
+            "name": "Anton Shcherbyna",
+            "email": "korvir78.dev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3"
+    },
+    "require": {
+        "nesbot/carbon": "^2.58"
+    }
+}
