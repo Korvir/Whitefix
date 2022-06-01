@@ -80,5 +80,8 @@ yarn.lock
 /vendor/*
 
 # Cash
-.nginx.conf
+nginx.conf
 wp-content/cache
+wp-content/advanced-cache.php
+wp-content/db.php
+wp-content/object-cache.php
