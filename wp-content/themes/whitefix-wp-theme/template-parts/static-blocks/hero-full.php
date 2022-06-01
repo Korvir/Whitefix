@@ -4,7 +4,7 @@ use App\Helpers\Posts;
 
 ?>
 <div class="section bg-gradient lozad"
-     id="home"
+     id="<?= Posts::getAcfValue('herofull_anchor', get_the_ID()) ?>"
      data-background-image="<?= Posts::getAcfValue('herofull_bg_image', get_the_ID())['url'] ?>">
 
 

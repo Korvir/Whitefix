@@ -10,7 +10,9 @@ $phonesRepeater = Posts::getAcfSubValue('phones_repeater');
 $socialNetworks = Posts::getAcfSubValue('social_networks');
 ?>
 
-<div class="light-bg py-5" id="contact">
+<div class="light-bg py-5"
+     id="<?= Posts::getAcfSubValue('anchor') ?>">
+
 	<div class="container">
 		<div class="row">
 

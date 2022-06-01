@@ -46,7 +46,7 @@ class EmailSender
 
 
 		$headers = [
-			'From: ' . wp_title() . ' <admin@whitefix.com>',
+			'From: ' . wp_title() . ' <contact_form@whitefix.com.ua>',
 			'content-type: text/html',
 		];
 		$subject = 'New Contact Form!';

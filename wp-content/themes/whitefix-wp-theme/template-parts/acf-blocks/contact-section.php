@@ -6,6 +6,7 @@ use App\Helpers\Posts;
 
 
 <div class="section bg-gradient lozad"
+     id="<?= Posts::getAcfSubValue('anchor') ?>"
      data-background-image="<?= Posts::getAcfSubValue('bg_image')['url'] ?>" >
 
 	<div class="container">

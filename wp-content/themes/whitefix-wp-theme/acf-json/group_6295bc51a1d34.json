@@ -3,6 +3,25 @@
     "title": "Hero Section Full",
     "fields": [
         {
+            "key": "field_62972540545c3",
+            "label": "Anchor",
+            "name": "herofull_anchor",
+            "type": "text",
+            "instructions": "Must be unique on page",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
             "key": "field_6295bc6aa0760",
             "label": "Background Image",
             "name": "herofull_bg_image",
@@ -97,5 +116,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1653980775
+    "modified": 1654072709
 }

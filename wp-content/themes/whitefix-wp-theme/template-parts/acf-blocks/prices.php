@@ -3,7 +3,9 @@
 use App\Helpers\Posts;
 
 ?>
-<div class="section light-bg" id="pricing">
+<div class="section light-bg"
+     id="<?= Posts::getAcfSubValue('anchor') ?>">
+
 	<div class="container">
 
 		<div class="row">
