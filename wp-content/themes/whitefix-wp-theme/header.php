@@ -54,7 +54,6 @@ use App\Menu\MenuBuilder;
 							<img id="logo-header"
 							     src="<?= Posts::getAcfValue('site_logo')['url'] ?>"
 							     class="img-fluid"
-							     width="80" height="40"
 							     alt="logo">
 						</a>
 

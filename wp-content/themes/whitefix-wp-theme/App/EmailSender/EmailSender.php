@@ -50,8 +50,8 @@ class EmailSender
 			'content-type: text/html',
 		];
 		$subject = 'New Contact Form!';
-		$message = '<p>Ім`я: ' . $formData['name'] . '</p>
-			<p>Телефон: ' . $formData['phone'] . '</p>';
+		$message = '<p>Ім`я: ' . wp_strip_all_tags($formData['name']) . '</p>
+			<p>Телефон: ' . wp_strip_all_tags($formData['phone']) . '</p>';
 
 
 		$mail = wp_mail($this->contactEmailTo, $subject, $message, $headers);
