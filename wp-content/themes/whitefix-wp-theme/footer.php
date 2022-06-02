@@ -1,6 +1,11 @@
+<?php
+
+use App\Helpers\Posts;
+
+?>
 <footer class="my-5 text-center">
 	<p class="mb-2">
-		<small>LOMO FIX © 2022. ВСІ ПРАВА ЗАХИЩЕНО </small>
+		<small> <?= Posts::getAcfValue('copyright') ?> </small>
 	</p>
 </footer>
 
