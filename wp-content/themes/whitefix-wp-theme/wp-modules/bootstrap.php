@@ -15,3 +15,8 @@ include_once __DIR__ . '/helpers/helpers-common.php';
 include_once __DIR__ . '/core/define.php';
 include_once __DIR__ . '/core/svg.php';
 include_once __DIR__ . '/core/acf.php';
+
+
+// Other
+include_once __DIR__ . '/other/googleTagManager/init.php';
+

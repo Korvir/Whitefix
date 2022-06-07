@@ -11,7 +11,9 @@ use App\Menu\MenuBuilder;
 <head>
 
 	<title>
-		<?php wp_title(''); ?>
+		<?php
+
+		wp_title(''); ?>
 
 		<?php
 		if ( wp_title('', false) )
@@ -105,5 +107,3 @@ use App\Menu\MenuBuilder;
 
 
 </header>
-
-<?php wp_head(); ?>
